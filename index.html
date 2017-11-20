@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TITRE</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	
+
+</head>
+<body>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<div class="row">
+	<div class="col l12">
+		<img src="mobile-dev.jpg" class="img-fluid center" alt="Responsive image">
+	</div>
+
+	<br>
+	<br>
+
+	<div class="col l12 center">
+		<textarea id="text"></textarea>
+
+		<button id="btn">Button</button>
+	</div>
+</div>
+
+	
+
+</body>
+
+<script type="text/javascript">
+	var element = document.getElementById('btn');
+
+    element.onclick = function() {
+
+    	var element2 = document.getElementById("text").value
+        alert(element2);
+
+    };
+</script>
+</html>
